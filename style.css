@@ -86,7 +86,7 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 40%;
+    width: 50%;
     position: absolute;
     text-align: center;
 }
@@ -99,4 +99,24 @@ body{
 
 #banner-text>p{
     font-size: 23px;
+}
+
+#banner-text>a{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-top: 30px;
+}
+
+#download{
+    background-color: white;
+    color: black;
+    margin-right: 20px;
+}
+
+#open{
+    background-color: black;
+    color: white;
 }
