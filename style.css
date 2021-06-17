@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
+
 body{
     font-family: Whitney, Helvetica Neue,Helvetica,Arial,sans-serif;
 }
@@ -67,7 +73,7 @@ body{
 /* header */
 
 /* main */
-
+/* inizio banner */
 .banner{
     height: 600px;
     position: relative;
@@ -92,7 +98,7 @@ body{
 }
 
 #banner-text>h1{
-    font-size: 50px;
+    font-size: 60px;
     font-weight: 500;
     margin-bottom: 30px;
 }
@@ -101,6 +107,7 @@ body{
     font-size: 23px;
 }
 
+/* classe comune per #download e #open */
 #banner-text>a{
     text-decoration: none;
     display: inline-block;
@@ -119,4 +126,38 @@ body{
 #open{
     background-color: black;
     color: white;
+}
+/* fine banner */
+/* inizio prima sezione */
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.image{
+    width: 65%;
+}
+
+.left{
+    float: left;
+}
+
+.text{
+    margin-top: 50px;
+    width: 35%;
+}
+
+.right{
+    float: right;
+}
+
+.text>h2{
+    font-size: 50px;
+}
+
+.text>p{
+    margin-top: 20px;
+    font-size: 25px;
 }
