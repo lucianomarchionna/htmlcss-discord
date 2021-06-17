@@ -136,10 +136,6 @@ body{
     margin-top: 80px;
 }
 
-.image{
-    /* width: 60%; */
-}
-
 .left{
     float: left;
 }
@@ -160,4 +156,25 @@ body{
 .text>p{
     margin-top: 20px;
     font-size: 25px;
+}
+
+#text{
+    margin-top: 50px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#text>h2{
+    font-size: 50px;
+}
+
+#text>p{
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+#last-img{
+    display: block;
+    margin: 0 auto;
 }
